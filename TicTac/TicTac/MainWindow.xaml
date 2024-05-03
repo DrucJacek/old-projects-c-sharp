@@ -1,0 +1,29 @@
+﻿<Window x:Class="TicTacToe.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Tic Tac Toe" Height="300" Width="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Button x:Name="btn1" Grid.Row="0" Grid.Column="0" Content="" FontSize="48" Click="Button_Click"/>
+        <Button x:Name="btn2" Grid.Row="0" Grid.Column="1" Content="" FontSize="48" Click="Button_Click"/>
+        <Button x:Name="btn3" Grid.Row="0" Grid.Column="2" Content="" FontSize="48" Click="Button_Click"/>
+
+        <Button x:Name="btn4" Grid.Row="1" Grid.Column="0" Content="" FontSize="48" Click="Button_Click"/>
+        <Button x:Name="btn5" Grid.Row="1" Grid.Column="1" Content="" FontSize="48" Click="Button_Click"/>
+        <Button x:Name="btn6" Grid.Row="1" Grid.Column="2" Content="" FontSize="48" Click="Button_Click"/>
+
+        <Button x:Name="btn7" Grid.Row="2" Grid.Column="0" Content="" FontSize="48" Click="Button_Click"/>
+        <Button x:Name="btn8" Grid.Row="2" Grid.Column="1" Content="" FontSize="48" Click="Button_Click"/>
+        <Button x:Name="btn9" Grid.Row="2" Grid.Column="2" Content="" FontSize="48" Click="Button_Click"/>
+    </Grid>
+</Window>

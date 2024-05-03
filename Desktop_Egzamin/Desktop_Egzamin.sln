@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desktop_Egzamin", "Desktop_Egzamin\Desktop_Egzamin.csproj", "{BD9146B9-7FC5-48EB-8873-A743A26CD2A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD9146B9-7FC5-48EB-8873-A743A26CD2A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD9146B9-7FC5-48EB-8873-A743A26CD2A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD9146B9-7FC5-48EB-8873-A743A26CD2A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD9146B9-7FC5-48EB-8873-A743A26CD2A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF7FF8D0-94F7-4499-9BD5-F2B8669FAE29}
+	EndGlobalSection
+EndGlobal
